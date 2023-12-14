@@ -1,0 +1,119 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: "poppins","sans-serif";
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2em;
+    color: #444343;
+    cursor: default;
+
+}
+.logo span{
+    color: #826da0;
+}
+.navigation a{
+font-size: 1.1em;
+color: #a59494;
+text-decoration: none;
+margin-right: 40px;
+font-weight: 500;
+transition: .3s;
+}
+.navigation a:hover{
+color: #27037a;
+}
+.bt-talk{
+    color: bisque;
+    text-decoration: none;
+    padding: 8px 33px;
+    background: #380f6e;
+    border-radius: 10px;
+    border: 2px solid #380f6e;
+    font-weight: 500;
+    transition: .3s;
+
+}
+.bt-talk:hover{
+color: #afa3bd;
+background: transparent;
+}
+.Home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("WhatsApp\ Image\ 2023-12-14\ at\ 8.52.04\ PM.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+.content{
+    color: #ffffff;
+   max-width: 500px;
+}
+.content h2{
+ color: #bdafaf;
+    font-size: 2.5em;
+}
+.content h2 span{
+    color: #ca7fec;
+}
+.content h4{
+    font-size: 2em;
+    color: #d5e2f1;
+}
+.content p{
+    padding: 10px 0 40px 0;
+}
+.btn-group a{
+    color: rgb(235, 227, 227);
+    text-decoration: none;
+    padding: 8px 35px;
+    background: rgb(102, 35, 141);
+    border-radius: 10px;
+    border: 2px solid #5d87bd;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-group a:hover:nth-child(1){
+    color: #ecdeff;
+    background: transparent;
+}
+
+.btn-group a:nth-child(2){
+  color: #ecdeff;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-group a:hover:nth-child(2){
+    color: #ffffff;
+    background: #63389e;
+    cursor: pointer;
+}
+.social-icon{
+    color: #ca7fec;
+    position: absolute;
+    bottom: 50px;
+}
+
+
+
